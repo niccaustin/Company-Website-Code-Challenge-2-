@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-bright-color: #AB6B2E;
+  --color-background-color: #FDE9CC;
+}
+
+@layer components {
+  .nav-gradient-shadow {
+    @apply bg-gradient-to-r from-background-color to-bright-color shadow-md;
+  }
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
